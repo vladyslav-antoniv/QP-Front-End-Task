@@ -1,0 +1,139 @@
+/* --- 8_responsive.css --- */
+
+/* ==========================================================
+   АДАПТАЦІЯ (MEDIA QUERIES)
+   ========================================================== */
+
+/* === ПЛАНШЕТ (768px і більше) === */
+@media (min-width: 768px) {
+    /* HEADER */
+    .sign-in-btn {
+        display: block;
+    }
+    .burger-btn {
+        display: flex;
+    }
+    .nav-desktop,
+    .lang-btn {
+        display: none;
+    }
+
+    /* HERO */
+    .hero {
+        padding: 60px 0;
+    }
+    .hero-container {
+        flex-direction: row;
+        text-align: left;
+        gap: 40px;
+    }
+    .hero-content {
+        order: 1;
+        flex: 1;
+    }
+    .hero-image {
+        order: 2;
+        flex: 1;
+    }
+    .hero-description {
+        margin-left: 0;
+    }
+    .hero-title {
+        font-size: 3rem; /* ~48px */
+    }
+
+    /* GETTING STARTED */
+    .steps-grid {
+        grid-template-columns: 1fr 1fr; /* 2 колонки */
+    }
+
+    /* FOOTER */
+    .footer-nav ul {
+        flex-direction: row;
+        gap: 25px;
+    }
+    .footer-auth {
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+    .footer-links {
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+
+/* === ДЕСКТОП (1025px і більше) === */
+@media (min-width: 1025px) {
+    /* HEADER */
+    .nav-desktop {
+        display: block;
+    }
+    .nav-desktop ul {
+        display: flex;
+        gap: 30px;
+    }
+    .nav-desktop a {
+        font-size: 16px;
+        color: var(--color-text);
+    }
+    .nav-desktop a:hover {
+        color: var(--color-primary);
+    }
+    .lang-btn {
+        display: flex;
+        align-items: center;
+        border: 1px solid var(--color-border);
+        border-radius: 30px;
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+    .arrow-down {
+        width: 0;
+        height: 0;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-top: 5px solid var(--color-dark);
+        margin-left: 8px;
+    }
+    .burger-btn {
+        display: none;
+    }
+
+    /* HERO */
+     .hero-title {
+        font-size: 3.5rem; /* ~56px */
+    }
+
+    /* GETTING STARTED */
+    .section-title {
+        font-size: 2.8rem;
+        margin-bottom: 60px;
+    }
+    
+    /* CONTACT */
+    .contact-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center;
+    }
+
+    /* FOOTER */
+    .footer-top {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+    .footer-copyright {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QP Front-End Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="images/logo.svg" alt="LOGO">
+            </a>
+
+            <nav class="nav-desktop">
+                <ul>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Instructions</a></li>
+                    <li><a href="#">Accounts</a></li>
+                    <li><a href="#">Platforms</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-right">
+                <button class="lang-btn">
+                    EN <span class="arrow-down"></span>
+                </button>
+                <button class="cta-btn sign-in-btn">SIGN IN FOR FREE</button>
+                <button class="burger-btn" id="burger-btn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <nav>
+            <ul>
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Instructions</a></li>
+                <li><a href="#">Accounts</a></li>
+                <li><a href="#">Platforms</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" class="cta-btn">SIGN IN FOR FREE</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Trade everywhere. Invest here!</h1>
+                    <p class="hero-description">
+                        We provide only the best trading software. The
+                        trading terminal MetaTraders is the most popular
+                        and convenient platform for access to giocal
+                        cxchanges. You can work anywhere.
+                    </p>
+                    <button class="cta-btn hero-btn">START TRADING</button>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero-chart.svg" alt="Trading chart statistics">
+                </div>
+            </div>
+        </section>
+
+        <section class="getting-started">
+            <div class="container">
+                <h2 class="section-title">Getting Started Is Fast & Easy</h2>
+                <div class="steps-image">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="images/steps-desktop.svg">
+                        <img src="images/steps-mobile.svg" alt="Steps to get started">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">People love Big Invest</h2>
+                <div class="slider">
+                    <div class="slide">
+                        <img src="images/quotes.svg" alt="Quotes" class="slide-quotes">
+                        <blockquote>
+                            "This magical product actually works! It has radically
+                            changed the way we build our audiences.
+                            Increasing new customer sales by 6x in our most
+                            mature market."
+                        </blockquote>
+                        <div class="author">
+                            <img src="images/avatar.png" alt="Albert Abello" class="author-avatar">
+                            <div>
+                                <span class="author-name">Albert Abello</span>
+                                <span class="author-title">Director of Cowsh</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="slider-arrow">
+                            <img src="images/arrow-left.svg" alt="Previous">
+                        </button>
+                        <img src="images/pagination.svg" alt="01/04" class="slider-pagination-img">
+                        <button class="slider-arrow arrow-right">
+                            <img src="images/arrow-right.svg" alt="Next">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq">
+            <div class="container">
+                <h2 class="section-title">Frequently asked questions</h2>
+                <div class="faq-list">
+                    <div class="faq-item is-open">
+                        <div class="faq-question">
+                            <span>What platforms will I be able to use?</span>
+                            <button class="faq-toggle"></button>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We provide only the best trading software The trading terminal MetaTrader is the mast popular and convenient platformer har actests to global exchanges. You can work anywtiers Ali you need is the Internet because the necessary trading tools are stready collected in one place and are available in couple of clicks. Use only the best and develop with t</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>How do I change my details?</span>
+                            <button class="faq-toggle"></button>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Answer text goes here...</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>How do I change my details?</span>
+                            <button class="faq-toggle"></button>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Answer text goes here...</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>How do I change my details?</span>
+                            <button class="faq-toggle"></button>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Answer text goes here...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container contact-container">
+                <div class="contact-info">
+                    <h2 class="section-title">Contact us!</h2>
+                    <p>The support staff and customer service are available to help you with any questions or needs you might have.</p>
+                    <p><strong>Just drop us a line</strong></p>
+                    
+                    <div class="contact-details">
+                        <p><strong>Phone:</strong> <a href="tel:442038857261">442038857261</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:help@google.com">help@google.com</a></p>
+                        <p><strong>Address:</strong> Trust Company Complex, Ayeltare Road, Ajertake Island Mauro, Republic of the Marshall manos 96900</p>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="4" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="cta-btn">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-top">
+            <div class="footer-logo">
+                <a href="#" class="logo">
+                    <img src="images/logo.svg" alt="LOGO">
+                </a>
+            </div>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Instructions</a></li>
+                    <li><a href="#">Platforms</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="footer-auth">
+                <a href="#">Sign in</a>
+                <a href="#" class="cta-btn">Sign up for free</a>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <div class="footer-legal">
+                <p><strong>Information and high risk warning:</strong> Trading with foreign exchange PA, contract for differences (CFD) and precious metals cartim high level of risk...</p>
+                <p><strong>Legal disclaimer:</strong> Forme trading entails significant risks and is not appropriate for all investors...</p>
+            </div>
+            <div class="footer-copyright">
+                <p>Copyright 2000 Arght Reserved</p>
+                <div class="footer-links">
+                    <a href="#">Terms and Con mon</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Warminge</a>
+                    <a href="#">A Money Launong</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

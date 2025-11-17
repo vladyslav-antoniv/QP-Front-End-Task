@@ -1,0 +1,12 @@
+/* --- src/style.css --- */
+/* Головний файл - імпортує всі частини */
+
+@import url("styles/0_base.css");
+@import url("styles/1_header.css");
+@import url("styles/2_hero.css");
+@import url("styles/3_getting-started.css");
+@import url("styles/4_testimonials.css");
+@import url("styles/5_faq.css");
+@import url("styles/6_contact.css");
+@import url("styles/7_footer.css");
+@import url("styles/8_responsive.css");

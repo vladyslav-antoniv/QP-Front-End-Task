@@ -1,0 +1,78 @@
+/* --- 7_footer.css --- */
+.footer {
+    padding: 40px 0 0 0;
+    /* 1. Змінено фон на білий */
+    background-color: var(--color-white);
+    /* 2. Змінено основний колір тексту на темний */
+    color: var(--color-text);
+    font-size: 0.85rem;
+    /* 3. Додано рамку зверху, щоб відокремити від контенту */
+    border-top: 1px solid var(--color-border);
+}
+
+.footer .logo img {
+    /* 4. Видалено фільтр, щоб логотип був у своєму
+       оригінальному (темному) кольорі */
+    filter: none;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding-bottom: 40px;
+}
+
+.footer-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-nav a {
+    /* 5. Змінено колір посилань на темний */
+    color: var(--color-dark);
+    font-weight: bold;
+}
+
+.footer-auth {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer-auth a {
+    /* 6. Змінено колір посилання на темний */
+    color: var(--color-dark);
+    font-weight: bold;
+}
+
+/* 7. Кнопка тепер стандартна (фіолетова) */
+.footer-auth .cta-btn {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+.footer-bottom {
+    /* 8. Колір рамки змінено на стандартний */
+    border-top: 1px solid var(--color-border);
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-legal {
+    margin-bottom: 30px;
+}
+.footer-legal p {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-links a {
+    text-decoration: underline;
+}

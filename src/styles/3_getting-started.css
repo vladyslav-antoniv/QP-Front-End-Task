@@ -1,0 +1,17 @@
+/* --- 3_getting-started.css --- */
+.getting-started {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.steps-image picture,
+.steps-image img {
+    width: 100%;
+    max-width: 900px; /* Обмеження, щоб не було занадто великим */
+    margin: 0 auto;
+}
