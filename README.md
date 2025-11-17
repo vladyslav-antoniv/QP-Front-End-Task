@@ -6,7 +6,7 @@ A technical assignment for a Junior Frontend Developer position. This is a landi
 
 A live version of the project, deployed using GitHub Pages, is available here:
 
-**[https://vladyslav-antoniv.github.io/QP-Front-End-Task/](https://vladyslav-antoniv.github.io/QP-Front-End-Task/)**
+**[DEMO_LINK](https://vladyslav-antoniv.github.io/QP-Front-End-Task/)**
 
 ## 🛠️ Tech Stack
 
